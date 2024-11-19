@@ -1,0 +1,12 @@
+{% load markdown %}
+
+{% markdown %}
+
+* **Preserving Local Variables** (optional): The SDK's default is to be quite conservative with the number of local
+  variables it sends per frame (the default is is 10). If you want to see more, you may either proceed with the [monkey
+  patching described in this issue](https://github.com/getsentry/sentry-python/issues/377), or set
+  `max_request_body_size` to `"always"` (which will send everything). Note that both these solutions may result in
+  messages so large that they are dropped by the server. Because Bugsink is self-hosted, you can [adjust the server
+  settings](https://www.bugsink.com/docs/settings/#maximums) to accept them anyway.
+
+{% endmarkdown %}
