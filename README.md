@@ -6,7 +6,9 @@ full control through self-hosting.
 
 ### SDK Conf
 
-This is the repository and associated pypi package that contains the
+NOTE: this project is "parked" (not quite dead yet, but currently unused).
+
+This was the repository and associated pypi package that contains the
 per-platform instructions to integrate your application with Bugsink.
 
 The per-platform instructions show up in 2 places:
